@@ -1,0 +1,72 @@
+/*style for body tag*/
+body {
+    background-color: whitesmoke;
+}
+.container{
+  margin-top: 10px;
+}
+
+.Ld{
+   
+    margin: 0;
+    padding: 0;
+}
+.L1{
+    background-color: #878787;
+    height: 450px;
+    position: relative;
+}
+.L1:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top:340px;
+    left: 0;
+    background-color: #F0E9DF;
+    transform: skewY(-25deg);
+}
+
+.L2{
+    background-color: #F0E9DF;
+    height: 500px;
+    position: relative;
+}
+
+
+.L1content{
+    padding: 10px;
+    padding-top: 50px;
+    color: white;
+}
+
+.normal{
+    font-size: 1em;
+}
+.Rd{
+    background-color: white;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.header{
+    background-color: #878787;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.L1contentDark{
+    padding: 10px;
+    color: #878787;
+}
+
+.rightHeader{
+    font-weight: bold;
+}
+
+hr { 
+    display: block;  
+    border-width: 3px;
+} 
